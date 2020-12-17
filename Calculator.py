@@ -26,7 +26,7 @@ def mul(x: int, y: int):
     return valX * valY
 
 class PersistentCalculator:
-    ''' A calculator to keep track of arithmetic calculations'''
+    ''' A calculator to keep track of arithmetic calculations '''
 
     def __init__(self):
         # Create a list in the class to keep track of calculations
