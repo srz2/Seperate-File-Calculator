@@ -1,4 +1,4 @@
-# This file contains some helpful math functions
+# This file contains some helpful math functions as well as PersistentCalculator
 # Created: 2020/12/17
 # 
 
@@ -25,7 +25,7 @@ def mul(x: int, y: int):
     valY = int(y)
     return valX * valY
 
-class PersistantCalculator:
+class PersistentCalculator:
     ''' A calculator to keep track of arithmetic calculations'''
 
     def __init__(self):

@@ -1,9 +1,9 @@
 import os
 import math
-from Calculator import PersistantCalculator
+from Calculator import PersistentCalculator
 
 def main():
-    calc = PersistantCalculator()
+    calc = PersistentCalculator()
 
     # Determine drinking age
     age = int(input('How old are you?: '))
