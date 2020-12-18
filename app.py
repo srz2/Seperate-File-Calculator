@@ -16,8 +16,8 @@ def main():
             at_above = 'above'
         print(f'Congrats on being {at_above} the drinking age!')
     else:
-        age = abs(age)
-        print(f'Only {age} years til yuo can drink, legally!')
+        age = abs(diff)
+        print(f'Only {age} years til you can drink, legally!')
     print('')
 
     # Ask about lucky number
